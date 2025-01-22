@@ -24,12 +24,12 @@ Cette plateforme de recrutement permet de gérer les candidats et les recruteurs
    ```
    git clone https://github.com/Mohammed-BJ/ProjetBackendDev
    cd ProjetBackendDev
-```
+   ```
 2.Creez et activez l'environnement virtuel
-```
+   ```
   python -m venv env
   source env/bin/activate  # Sur Windows, utilisez `env\Scripts\activate`
-```
+   ```
 3.Installez les dépendances :
   ```pip install -r requirements.txt```
 
@@ -45,18 +45,18 @@ Cette plateforme de recrutement permet de gérer les candidats et les recruteurs
         'PORT': '5432',
     } 
   }
-```
+  ```
 
 5.Appliquez les migrations
-``` 
+  ``` 
   python manage.py makemigrations
   python manage.py migrate
-```
+  ```
 6.Créez un superutilisateur pour accéder à l'interface d'admin
-```  python manage.py createsuperuser ```
+ ```  python manage.py createsuperuser ```
 
 7.Démarrez le serveur de développement
-```  python manage.py runserver ```
+ ```  python manage.py runserver ```
 
 Utilisation
 Accédez à la page d'acceuil : http://127.0.0.1:8000/
