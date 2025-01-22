@@ -11,6 +11,10 @@ Cette plateforme de recrutement permet de gérer les candidats et les recruteurs
 - Python 3.8+
 - PostgreSQL
 - pip
+- Django
+- Django REST framework
+- drf-yasg
+- psycopg2-binary
 
 ## Installation
 
