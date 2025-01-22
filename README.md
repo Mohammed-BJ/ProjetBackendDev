@@ -32,15 +32,23 @@ Cette plateforme de recrutement permet de gérer les candidats et les recruteurs
   pip install -r requirements.txt
 
 4.Configurer votre base de données dans settings.py
+  
   DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
+        
         'NAME': 'your_db_name', #A remplacer par la votre
+        
         'USER': 'postgres',  #A remplacer
+        
         'PASSWORD': 'your_password', #A remplacer
+        
         'HOST': 'localhost',
+        
         'PORT': '5432',
+    
     }
+  
   }
 
 5.Appliquez les migrations 
