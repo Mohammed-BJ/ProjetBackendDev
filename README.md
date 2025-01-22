@@ -5,6 +5,8 @@ Exercice de développement backend (Python/Django)
 ## Description
 
 Cette plateforme de recrutement permet de gérer les candidats et les recruteurs via une API REST.
+Le projet est dans le dossier recruitment
+Les diagrammes sont dans le dossier diagramioFait
 
 ## Prérequis
 
